@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   /*background: image, repeat, position and size*/
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
@@ -10,13 +16,13 @@ body * {
 
 #container {
   width: 360px;
-  height: 712px;
-  border: 1px solid red;
-  margin: auto;
+  
+  margin: 56px auto 0px;
 }
 
 #profile {
   text-align: center;
+  padding: 24px;
 }
 
 #profile img {
@@ -26,4 +32,24 @@ body * {
 #profile p {
   font-weight: 500;
   line-height: 24px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+ul li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
