@@ -1,7 +1,7 @@
 <h1 align="center"> DeveloperLinks </h1>
 
 <p align="center">
-Área para conhecer um pouco sobre meu eu desenvolvedor
+Área para conhecer um pouco sobre meu eu desenvolvedor!
 </p>
 
 <p align="center">
@@ -26,4 +26,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DeveloperLinks é um cartão de visitas para meus projetos.
+O DeveloperLinks é um cartão de visitas para os meus projetos.
